@@ -18,7 +18,7 @@ This repository contains Terraform code to demonstrate Vault's 1.16+ Secrets Syn
 | vault_token | Required | Vault token for Terraform | N/A |
 | secret_mount_sync | Required | Vault's mount of the KV secret to be synced | N/A |
 | secret_name_sync | Required | Vault's name of the KV secret to be synced | N/A |
-| client_secret | Required | \[Sensitive\] client_secret of Azure's Service Principal for Vault |
+| client_secret | Required | \[Sensitive\] client_secret of Azure's Service Principal for Vault | N/A |
 | prefix | Optional | Prefix of resources names | hashicorp |
 | resource_group_location | Optional | Azure datacenter location for the resource group | francecentral |
 | vault_ns | Optional | Vault's namespace to use -  should be `admin` if using HCP Vault | root |
